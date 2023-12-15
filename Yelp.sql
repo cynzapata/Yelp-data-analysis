@@ -45,4 +45,16 @@ From tip
 Select *
 From user
 
+--3. Are there any columns with null values in the Users table? Indicate "yes," or "no."
+
+--Answer: No
+	
+--SQL code used to arrive at answer:
+Select *
+From user
+Where id || name || review_count || yelping_since || useful  ||funny  || cool ||fans ||
+average_stars || compliment_hot || compliment_more || Compliment_profile || compliment_cute ||
+compliment_list || compliment_note || compliment_plain || compliment_cool || compliment_funny ||
+compliment_writer || compliment_photos is NULL
+
 
