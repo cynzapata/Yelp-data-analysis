@@ -151,5 +151,7 @@ compliment_writer || compliment_photos is NULL
 	From User
 	Order by Fans desc
 
+--The rest of the code and analysis is in guide,txt
+
 
 
